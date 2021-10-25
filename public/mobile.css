@@ -1,4 +1,8 @@
 @media (max-width: 1000px) {
+  body {
+    width: 100%;
+  }
+
   .nav {
     display: block;
   }
@@ -7,7 +11,10 @@
   }
   .nav__list {
     margin-right: 0;
-    padding: 2% 13%;
+    width: 100%;
+  }
+  .nav__list-item {
+    width: 30%;
   }
 
   .main {
@@ -30,6 +37,24 @@
   .structure {
     width: 80%;
     margin: 5% auto;
+  }
+
+  .info {
+    margin: 0 auto;
+    width: 80%;
+  }
+  .info__title {
+    margin-left: 0;
+    margin-bottom: 1em;
+  }
+  .info__title h1 {
+    text-align: center;
+  }
+}
+@media (width: 320px) {
+  .nav__list {
+    margin-right: 50px;
+    padding: 2% 0 2% 0;
   }
 }
 

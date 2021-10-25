@@ -68,7 +68,7 @@
   padding-left: 1em;
 }
 .photo__change-item p {
-  padding-left: 5px;
+  padding-left: 10px;
 }
 .photo__change-delete {
   width: 130px;
@@ -82,7 +82,7 @@
   padding-left: 1em;
 }
 .photo__change-delete p {
-  padding-left: 5px;
+  padding-left: 10px;
 }
 .photo__name {
   width: 18.75em;
@@ -102,7 +102,7 @@
   max-width: 20em;
   background-color: white;
   margin-top: 0.5em;
-  margin-right: 0.5em;
+  margin-right: 1em;
 }
 .structure__item {
   display: flex;
@@ -120,6 +120,10 @@
 }
 .structure__start {
   padding-top: 1em;
+}
+.structure__hr {
+  width: 90%;
+  margin: 2% auto;
 }
 
 .info {
@@ -141,7 +145,7 @@
   margin: 1em;
 }
 .info__notification p {
-  margin: 1em 1em;
+  padding: 1em 1em;
   width: 100%;
 }
 .info__button {

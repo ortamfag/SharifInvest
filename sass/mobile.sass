@@ -1,4 +1,7 @@
 @media ( max-width: 1000px )
+
+    body
+        width: 100%
     
     .nav
         display: block
@@ -6,8 +9,10 @@
             display: none
         &__list
             margin-right: 0
-            padding: 2% 13%
-    
+            width:100%
+
+            &-item
+                width: 30%
     
     .main
         display: block
@@ -25,3 +30,20 @@
     .structure
         width: 80%
         margin: 5% auto
+
+    .info
+        margin: 0 auto
+        width: 80%
+
+        &__title
+            margin-left: 0
+            margin-bottom: 1em
+
+        &__title h1
+            text-align: center
+        
+
+@media (width: 320px )
+    .nav__list
+        margin-right: 50px
+        padding: 2% 0 2% 0
