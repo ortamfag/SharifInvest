@@ -108,6 +108,9 @@
     margin: 1%;
     font-size: 14px;
   }
+  .info__growth {
+    margin: 0 auto;
+  }
 
   .info__hr {
     width: 100%;
