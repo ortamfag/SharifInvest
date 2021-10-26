@@ -1,16 +1,73 @@
+$fontmain: 'Open Sans', sans-serif
+
 @media ( max-width: 1000px )
 
     body
         width: 100%
     
     .nav
-        display: block
-        &__list
-            display: none
+        display: none
+
+        &__mobile
+
+            background-color: #111
+            width: 100%
+
+            display: flex
+            align-items: center
+            justify-content: space-between
+
+            &-switch
+                border: 2px solid #ea7f1d
+                border-radius: 20px
+                width: 25%
+
+                display: flex
+                align-items: center
+                justify-content: space-between
+
+            &-burger
+                cursor: pointer
+                display: flex
+                flex-direction: column
+                justify-content: center
+
+            &-burger div
+                position: relative
+                background-color: #ea7f1d
+                text-align: left
+                margin-bottom: 5px
+
+    .burger-1
+        width: 25px
+        height: 2px
+
+    .burger-2
+        width: 20px
+        height: 2px
     
+    .burger-3
+        width: 15px
+        height: 2px
+    
+    .round
+        border-radius: 50%
+        border: 3px solid green
+
+    .switch1
+        padding-left: 10%
+
+    .switch2
+        padding-right: 12%
+
+
     .main
-        display: block
         padding: 0 0
+        background-color: #e8e8e8
+        padding-bottom: 30em
+
+        &__twoblock
+            display: none
 
     .photo__inner
         margin: 5% auto
@@ -27,17 +84,27 @@
 
     .info
         margin: 0 auto
-        width: 80%
+        width: 100%
+        background-color: #e8e8e8
 
         &__title
-            margin-left: 0
-            margin-bottom: 1em
+            margin: 7% auto
+
+            &-last
+                margin-bottom: 15%
 
         &__title h1
             text-align: center
+            font-weight: 400
+
+        &__notification
+            margin: 1%
+            font-size: 14px
         
+    .info__hr
+        width: 100%
+        margin: 0
+        height: 2px
+        background-color: white
 
 @media (width: 320px )
-    .nav__list
-        margin-right: 50px
-        padding: 2% 0 2% 0

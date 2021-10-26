@@ -28,6 +28,9 @@
 .nav__logo {
   margin-left: 13%;
 }
+.nav__mobile {
+  display: none;
+}
 
 .main__twoblock {
   display: flex;
@@ -169,10 +172,9 @@
 }
 .info__button-item {
   background-color: #ea7f1d;
-  width: 10em;
+  width: 13em;
   height: 3em;
-  border-radius: 10px;
-  padding: 1em;
+  border-radius: 20px;
   border: 0;
   color: white;
   font-size: 21px;
