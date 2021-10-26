@@ -6,15 +6,8 @@
   .nav {
     display: block;
   }
-  .nav__logo {
-    display: none;
-  }
   .nav__list {
-    margin-right: 0;
-    width: 100%;
-  }
-  .nav__list-item {
-    width: 30%;
+    display: none;
   }
 
   .main {
