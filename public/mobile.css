@@ -9,14 +9,15 @@
   .nav__mobile {
     background-color: #111;
     width: 100%;
+    padding: 0.5% 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
   .nav__mobile-switch {
     border: 2px solid #ea7f1d;
-    border-radius: 20px;
-    width: 25%;
+    border-radius: 15px;
+    width: 20%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -35,18 +36,18 @@
   }
 
   .burger-1 {
-    width: 25px;
-    height: 2px;
+    width: 50px;
+    height: 3px;
   }
 
   .burger-2 {
-    width: 20px;
-    height: 2px;
+    width: 40px;
+    height: 3px;
   }
 
   .burger-3 {
-    width: 15px;
-    height: 2px;
+    width: 30px;
+    height: 3px;
   }
 
   .round {
