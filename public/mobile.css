@@ -168,6 +168,12 @@
   .info__profile-active {
     text-align: center;
   }
+  .info__structure-item {
+    justify-content: center;
+  }
+  .info__structure-placeholder {
+    width: 50%;
+  }
 
   .info__hr {
     width: 100%;
