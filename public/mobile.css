@@ -125,6 +125,26 @@
   .info__growth {
     margin: 0 auto;
   }
+  .info__table {
+    display: none;
+  }
+  .info__table-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .info__table-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .info__table-item p {
+    margin: 2% 3%;
+  }
+  .info__table-item input {
+    margin: 2% 3%;
+    border: 1px solid #cdcdcd;
+    background-color: #f6f7f9;
+    padding: 3%;
+  }
 
   .info__hr {
     width: 100%;

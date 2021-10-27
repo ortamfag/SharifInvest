@@ -207,6 +207,19 @@ a {
   font-weight: 700;
   text-align: center;
 }
+.info__table {
+  padding: 3% 5%;
+}
+.info__table-inner {
+  border-collapse: collapse;
+  width: 100%;
+}
+.info__table-inner tr td {
+  border: 1px solid #cdcdcd;
+}
+.info__table-mobile {
+  display: none;
+}
 .info__button {
   margin-top: 2em;
   display: flex;
