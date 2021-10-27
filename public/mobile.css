@@ -52,7 +52,7 @@
 
   .round {
     border-radius: 50%;
-    border: 3px solid green;
+    border: 3px solid #ea7f1d;
   }
 
   .switch1 {
@@ -104,9 +104,23 @@
     text-align: center;
     font-weight: 400;
   }
+  .info__status {
+    display: block;
+    margin: 4% 1%;
+  }
+  .info__status-money {
+    margin-top: 5%;
+  }
   .info__notification {
     margin: 1%;
     font-size: 14px;
+  }
+  .info__notification-status {
+    margin: 0;
+    padding: 0;
+  }
+  .info__notification-status p {
+    text-align: center;
   }
   .info__growth {
     margin: 0 auto;

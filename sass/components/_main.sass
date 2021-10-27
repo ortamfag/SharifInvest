@@ -142,6 +142,9 @@
         padding: 0.3em
         margin: 1em
 
+        &-status
+            padding-right: 10%
+
     &__notification p
         padding: 1em 1em
         width: 100%
@@ -159,8 +162,32 @@
         height: 3em
         border-radius: 20px
         font:
-                size: 21px
+            size: 21px
+            weight: bold
+    
+    &__status
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin: 4% 3%
+
+        &-money
+            display: flex
+            flex-direction: column
+            justify-content: center
+
+        &-money h1
+            font:
+                size: 19px
                 weight: bold
+            color: #ea7f1d 
+            text-align: center
+        
+        &-money p
+            font:
+                size: 17px
+                weight: 700
+            text-align: center
 
     &__button 
         margin-top: 2em
