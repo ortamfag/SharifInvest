@@ -191,10 +191,10 @@
     &__banks
         display: grid
         
-        grid-template-columns: 33% 33% 33%
+        grid-template-columns: 50% 50%
         grid-template-rows: 1fr
         grid-gap: 20px
-        margin: 4%
+        padding: 4% 10%
 
         &-item
             border: 2px solid #f6360f
@@ -208,6 +208,20 @@
     &__lots
         display: grid
         grid-template-columns: 25% 25% 25% 25%
+        grid-template-rows: 0.5fr
+    &__lots div
+        margin: 4%
+    &__lot
+        border: 2px solid #f6360f
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 90%
+        height: 3em
+        border-radius: 20px
+        font:
+            size: 21px
+            weight: bold
 
     &__table
         padding: 3% 5%
