@@ -369,6 +369,10 @@ a {
   font-weight: 500;
   margin-bottom: 5%;
 }
+.info__slider-description {
+  display: flex;
+  justify-content: space-between;
+}
 
 .lots-button {
   padding-bottom: 20%;

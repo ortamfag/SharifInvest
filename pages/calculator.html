@@ -99,7 +99,7 @@
 
                 <div class="structure__item structure__active">
                     <img src="../img/passive.png" width="30px" height="30px">
-                    <a class="structure__active" href="passive.html">Пассивный доход</a>
+                    <a href="passive.html">Пассивный доход</a>
                 </div>
 
                 <hr class="structure__hr">
@@ -127,7 +127,7 @@
 
                 <div class="structure__item">
                     <img src="../img/calculator.png" width="30px" height="30px">
-                    <a href="calculator.html">Финансовый калькулятор</a>
+                    <a class="structure__active" href="calculator.html">Финансовый калькулятор</a>
                 </div>
 
                 <hr class="structure__hr">
@@ -162,8 +162,41 @@
                     </div>
 
                     <p class="value"><span id="demo"></span>$</p>
-                </div>
+
+                    <div class="info__slider-description">
+                        <p>Ежемесячное инвестирование</p>
+                        <p><strong>Произвольная сумма</strong></p>
+                        <p>/</p>
+                        <p>Процент от активного дохода</p>
+                    </div>
+
+                    <p>Сумма ежемесячной инвестиции</p>
+
+                    <div class="info__slider">
+                        <p>0</p>
+                        <p>5 000</p>
+                    </div>
+
+                    <div class="slidecontainer">
+                        <input type="range" min="0" max="5000" value="0" class="slider" id="myRange1">
+                    </div>
+
+                    <p class="value"><span id="demo1"></span>$</p>
+
+                    <p>Срок инвестирования</p>
+
+                    <div class="info__slider">
+                        <p>1</p>
+                        <p>50</p>
+                    </div>
+
+                    <div class="slidecontainer">
+                        <input type="range" min="1" max="50" value="0" class="slider" id="myRange2">
+                    </div>
+
+                    <p class="value"><span id="demo2"></span> лет</p>
             </div>
+        </div>
 
         </div>
     </main>
@@ -175,6 +208,22 @@
         
         slider.oninput = function() {
         output.innerHTML = this.value;
+        }
+
+        var slider1 = document.getElementById("myRange1");
+        var output1 = document.getElementById("demo1");
+        output1.innerHTML = slider1.value;
+        
+        slider1.oninput = function() {
+        output1.innerHTML = this.value;
+        }
+
+        var slider2 = document.getElementById("myRange2");
+        var output2 = document.getElementById("demo2");
+        output2.innerHTML = slider2.value;
+        
+        slider2.oninput = function() {
+        output2.innerHTML = this.value;
         }
         </script>
 </body>
