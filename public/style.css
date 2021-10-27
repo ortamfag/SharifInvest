@@ -270,9 +270,84 @@ a {
   font-weight: bold;
   text-align: center;
 }
+.info__verify {
+  display: flex;
+  justify-content: center;
+  background-color: #e7f46e;
+  border-radius: 20px;
+  margin: 2%;
+  padding: 1%;
+}
+.info__verify p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 1%;
+}
+.info__citizen {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 2%;
+}
 
 .lots-button {
   padding-bottom: 20%;
+}
+
+.cabinet-title {
+  display: flex;
+}
+
+.cabinet-title h1 {
+  margin-right: 3%;
+}
+
+.verification__first {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+.verification__first-item {
+  display: flex;
+  flex-direction: column;
+}
+.verification__first-item input {
+  margin: 2% 3%;
+  border: 1px solid #cdcdcd;
+  background-color: #f6f7f9;
+  padding: 1%;
+}
+
+.verification__checkbox {
+  margin: 2%;
+}
+.verification__item {
+  margin: 0% 3%;
+}
+.verification__photo {
+  display: flex;
+  justify-content: center;
+}
+.verification__photo-item {
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 3%;
+  margin: 2%;
+}
+.verification__notification {
+  display: flex;
+  justify-content: space-around;
+}
+.verification__buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+.verification__button {
+  background-color: #c9c9c9;
+  color: black;
+  margin-left: 3%;
 }
 
 /*# sourceMappingURL=style.css.map */
