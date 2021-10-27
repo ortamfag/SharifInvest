@@ -188,6 +188,26 @@
                 size: 17px
                 weight: 700
             text-align: center
+    &__banks
+        display: grid
+        
+        grid-template-columns: 33% 33% 33%
+        grid-template-rows: 1fr
+        grid-gap: 20px
+        margin: 4%
+
+        &-item
+            border: 2px solid #f6360f
+            border-radius: 10px
+
+            display: flex
+            align-items: center
+            justify-content: center
+            padding: 3%
+
+    &__lots
+        display: grid
+        grid-template-columns: 25% 25% 25% 25%
 
     &__table
         padding: 3% 5%
@@ -220,3 +240,6 @@
                 weight: bold
             text-align: center
 
+
+.lots-button
+    padding-bottom: 20%
