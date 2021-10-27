@@ -158,6 +158,10 @@
   .info__lots div {
     margin: 4%;
   }
+  .info__password {
+    margin: 0 auto;
+    width: 30%;
+  }
 
   .info__hr {
     width: 100%;
@@ -185,6 +189,19 @@
   .info__verify img {
     margin-right: 2%;
     margin-left: 2%;
+  }
+
+  .hr__password {
+    display: none;
+  }
+
+  .photo__passwords {
+    display: block;
+  }
+
+  .photo__change-password {
+    margin: 0;
+    justify-content: center;
   }
 }
 

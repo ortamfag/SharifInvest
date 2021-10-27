@@ -288,6 +288,19 @@ a {
   font-weight: 500;
   margin: 2%;
 }
+.info__password {
+  border: 1px solid #ea7f1d;
+  background-color: #f6f7f9;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 4% 4%;
+  width: 15%;
+}
+.info__password p {
+  border-bottom: 1px solid black;
+}
 
 .lots-button {
   padding-bottom: 20%;
@@ -348,6 +361,10 @@ a {
   background-color: #c9c9c9;
   color: black;
   margin-left: 3%;
+}
+
+.photo__passwords {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
