@@ -162,6 +162,12 @@
     margin: 0 auto;
     width: 30%;
   }
+  .info__giftstat {
+    justify-content: center;
+  }
+  .info__profile-active {
+    text-align: center;
+  }
 
   .info__hr {
     width: 100%;
@@ -202,6 +208,14 @@
   .photo__change-password {
     margin: 0;
     justify-content: center;
+  }
+
+  .notification-gift {
+    margin: 6% 1%;
+  }
+
+  .verify__profile {
+    margin: 5% 2%;
   }
 }
 

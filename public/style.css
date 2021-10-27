@@ -301,6 +301,35 @@ a {
 .info__password p {
   border-bottom: 1px solid black;
 }
+.info__notification-giftitem {
+  display: flex;
+  align-items: center;
+  margin-left: 2%;
+}
+.info__notification-giftitem p {
+  font-size: 17px;
+  font-weight: 600;
+}
+.info__giftstat {
+  display: flex;
+  align-items: center;
+  font-size: 21px;
+  font-weight: 600;
+  margin: 2%;
+}
+.info__giftstat-percent {
+  background-color: #ea7f1d;
+  padding: 1% 4%;
+  border-radius: 10px;
+  margin-right: 1%;
+}
+.info__giftstat-percent p {
+  color: white;
+}
+.info__profile-active {
+  margin: 2% 4%;
+  color: #ea7f1d;
+}
 
 .lots-button {
   padding-bottom: 20%;
