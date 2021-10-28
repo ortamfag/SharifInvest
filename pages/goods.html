@@ -43,6 +43,20 @@
             <div class="nav__mobile-avatar">
                 <img src="../img/avatar.jpg" width="50px" height="50px" class="round">
             </div>
+
+            <div class="burgers">
+                <ul class="burgers__list">
+                    <li class="burgers__item">
+                        <a href="" class="burgers__link">Войти</a>
+                    </li>
+                    <li class="burgers__item">1</li>
+                    <li class="burgers__item">2</li>
+                    <li class="burgers__item">3</li>
+                    <li class="burgers__item">4</li>
+                    <li class="burgers__item">5</li>
+                </ul>
+
+            </div>
     </nav>
 
     <main class="main">
@@ -172,5 +186,13 @@
 
         </div>
     </main>
+    <script>
+        // menu
+    const burger = document.querySelector('.nav__mobile-burger');
+    const burger1 = document.querySelector('.burgers');
+    burger.addEventListener('click', () => burger.classList.toggle('nav__mobile-burgeractive'));
+    burger.addEventListener('click', () => burger1.classList.toggle('burgersactive'));
+    // end menu
+</script>
 </body>
 </html>

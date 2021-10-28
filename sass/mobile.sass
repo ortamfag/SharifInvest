@@ -32,6 +32,23 @@ $fontmain: 'Open Sans', sans-serif
                 display: flex
                 flex-direction: column
                 justify-content: center
+                transition: box-shadow 0.3s ease
+                z-index: 3
+            &-burgeractive
+                box-shadow: none
+
+            &-burgeractive div
+                transition: all 0.3s ease
+
+            &-burgeractive div:nth-child(1)
+                transform: translateY(10px) rotate(45deg)
+
+            &-burgeractive div:nth-child(2)
+                opacity: 0
+            
+            &-burgeractive div:nth-child(3)
+                transform: translateY(-5px) rotate(-45deg)
+                width: 50px
 
             &-burger div
                 position: relative
@@ -221,6 +238,40 @@ $fontmain: 'Open Sans', sans-serif
     .verify__profile
         margin: 5% 2%
 
+
+    .burgers
+        position: absolute
+        width: 100%
+        height: 100%
+        top: 10%
+        left: 0
+        z-index: 100
+        transition: all .5s ease 0s
+        transform: translate(0, -200%)
+        visibility: hidden
+        opacity: 0
+
+
+        &__list
+            font:
+                size: 20px
+                weight: 700
+            background: #1111
+            
+        &__list li
+            padding: 20px 0
+            border-bottom: 1px solid #ef7f1a
+            text-align: center
+            color: #fff
+            background-color: #111
+
+        &__item a
+            color: white
+    .burgersactive
+        transition: all .5s ease 0s
+        visibility: visible
+        opacity: 1
+        transform: translate(0,0)
 
 
 @media (width: 320px ) 
