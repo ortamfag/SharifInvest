@@ -374,6 +374,16 @@ a {
   display: flex;
   justify-content: space-between;
 }
+.info__goods {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr;
+  margin: 4% 0;
+  justify-items: center;
+}
+.info__goods img {
+  margin: 5% 4%;
+}
 
 .lots-button {
   padding-bottom: 20%;

@@ -190,6 +190,10 @@
   .info__calculator-pictureslider {
     margin-top: 5%;
   }
+  .info__goods {
+    grid-template-columns: 50%;
+    justify-items: stretch;
+  }
 
   .info__hr {
     width: 100%;
