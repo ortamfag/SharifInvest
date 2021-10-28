@@ -210,7 +210,7 @@
   }
   .info__goods {
     grid-template-columns: 50%;
-    justify-items: stretch;
+    justify-content: center;
   }
 
   .info__hr {
