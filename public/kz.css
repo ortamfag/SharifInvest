@@ -1,0 +1,61 @@
+.kz_us {
+  position: absolute;
+  top: 6%;
+  right: 29%;
+  border: 2px solid #ea7f1d;
+  border-radius: 15px;
+  background-color: #111;
+  z-index: 100;
+  width: 16%;
+  align-items: center;
+  justify-content: center;
+}
+.kz_rus {
+  position: absolute;
+  top: 10%;
+  right: 29%;
+  border: 2px solid #ea7f1d;
+  border-radius: 15px;
+  background-color: #111;
+  z-index: 100;
+  width: 16%;
+  align-items: center;
+  justify-content: center;
+}
+.kz_tgk {
+  position: absolute;
+  top: 14%;
+  right: 29%;
+  border: 2px solid #ea7f1d;
+  border-radius: 15px;
+  background-color: #111;
+  z-index: 100;
+  width: 16%;
+  justify-content: center;
+}
+.kz_turkish {
+  position: absolute;
+  top: 18%;
+  right: 29%;
+  border: 2px solid #ea7f1d;
+  border-radius: 15px;
+  background-color: #111;
+  z-index: 100;
+  width: 16%;
+  align-items: center;
+  justify-content: center;
+}
+.kz_uzbek {
+  position: absolute;
+  top: 22%;
+  right: 29%;
+  border: 2px solid #ea7f1d;
+  border-radius: 15px;
+  background-color: #111;
+  z-index: 100;
+  width: 16%;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=kz.css.map */
