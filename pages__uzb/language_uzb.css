@@ -6,5 +6,5 @@
 language-header__eng.active,.language-header__kz.active,.language-header__tgk.active,
 .language-header__turkish.active,.language-header__rus.active,.language-header__us.active
 {
-    display: block
+    display: flex
 }
