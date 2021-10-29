@@ -58,4 +58,56 @@
   justify-content: center;
 }
 
+@media (max-width: 350px) {
+  .rus_password_us {
+    right: 33%;
+  }
+  .rus_password_kz {
+    right: 33%;
+  }
+  .rus_password_tgk {
+    right: 33%;
+  }
+  .rus_password_turkish {
+    right: 33%;
+  }
+  .rus_password_uzbek {
+    right: 33%;
+  }
+}
+@media (min-width: 360px) {
+  .rus_password_us {
+    right: 34%;
+  }
+  .rus_password_kz {
+    right: 34%;
+  }
+  .rus_password_tgk {
+    right: 34%;
+  }
+  .rus_password_turkish {
+    right: 34%;
+  }
+  .rus_password_uzbek {
+    right: 34%;
+  }
+}
+@media (min-width: 475px) {
+  .rus_password_us {
+    right: 37%;
+  }
+  .rus_password_kz {
+    right: 37%;
+  }
+  .rus_password_tgk {
+    right: 37%;
+  }
+  .rus_password_turkish {
+    right: 37%;
+  }
+  .rus_password_uzbek {
+    right: 37%;
+  }
+}
+
 /*# sourceMappingURL=rus.css.map */

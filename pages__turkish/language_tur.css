@@ -3,5 +3,5 @@
 }
 
 .language-header__eng.active,.language-header__kz.active,.language-header__tgk.active,.language-header__us.active,.language-header__uzbek.active,.language-header__rus.active{
-    display: block
+    display: flex;
 }
