@@ -143,9 +143,6 @@
   .info__growth {
     margin: 0 auto;
   }
-  .info__table {
-    display: none;
-  }
   .info__table-mobile {
     display: flex;
     flex-direction: column;
