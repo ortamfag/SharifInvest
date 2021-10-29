@@ -36,12 +36,75 @@
             </div>
 
             <div class="nav__mobile-switch">
-                <img src="../img/triangle.svg" width="20px" height="20px" class="switch1">
-                <img src="../img/rus.svg" width="30px" height="30px" class="switch2">
+                <ul class="header__language language-header">
+                    <li class="language-header__rus">
+                        <img src="../img/rus.svg" width="30px" height="30px" class="switch2">
+                    </li>
+
+                    <li class="language-header__us">
+                        <img src="../img/us.svg" width="30px" height="30px" class="switch2">
+                    </li>
+
+                    <li class="language-header__kz">
+                        <img src="../img/kz.svg" width="30px" height="30px" class="switch2">
+                    </li>
+
+                    <li class="language-header__tgk">
+                        <img src="../img/tgk.svg" width="30px" height="30px" class="switch2">
+                    </li>
+
+                    <li class="language-header__turkish">
+                        <img src="../img/turkish.svg" width="30px" height="30px" class="switch2">
+                    </li>
+
+                    <li class="language-header__uzbek">
+                        <img src="../img/uzbek.svg" width="30px" height="30px" class="switch2">
+                    </li>
+                </ul>
+
             </div>
             
             <div class="nav__mobile-avatar">
-                <img src="../img/avatar.jpg" width="50px" height="50px" class="round">
+                <a href="profile.html"><img src="../img/avatar.jpg" width="50px" height="50px" class="round"></a>
+            </div>
+
+            <div class="burgers">
+                <ul class="burgers__list">
+                    <li class="burgers__item">
+                        <a href="deposit.html" class="burgers__link">Ваш депозит</a>
+                    </li>
+                    <li class="burgers__item">
+                        <a href="structure.html" class="burgers__link">Структура</a>
+                    </li>
+                    <li class="burgers__item">
+                        <a href="growth.html" class="burgers__link">Доход от структуры</a>
+                    </li>
+                    <li class="burgers__item">
+                        <a href="passive.html" class="burgers__link">Пассивный доход</a>
+                    </li>
+                    <li class="burgers__item">
+                        <a href="../index.html" class="burgers__link">Активность человека</a>
+                    </li>
+                    <li class="burgers__item">
+                        <a href="gift.html" class="burgers__link">Промо-бонус</a>
+                    </li>
+                    <li class="burgers__item">
+                        <a href="vaucher.html" class="burgers__link">Ваучер</a>
+                    </li>
+                    <li class="burgers__item">
+                        <a href="calculator.html" class="burgers__link">Финансовый калькулятор</a>
+                    </li>
+                    <li class="burgers__item">
+                        <a href="lots.html" class="burgers__link">Лоты и товары</a>
+                    </li>
+                    <li class="burgers__item">
+                        <a href="wallet.html" class="burgers__link">Кошельки</a>
+                    </li>
+                    <li class="burgers__item">
+                        <a href="cabinet.html" class="burgers__link">Кабинет</a>
+                    </li>
+                </ul>
+
             </div>
     </nav>
 
@@ -275,5 +338,23 @@
         output2.innerHTML = this.value;
         }
         </script>
+
+<script>
+    // menu
+const burger = document.querySelector('.nav__mobile-burger');
+const burger1 = document.querySelector('.burgers');
+burger.addEventListener('click', () => burger.classList.toggle('nav__mobile-burgeractive'));
+burger.addEventListener('click', () => burger1.classList.toggle('burgersactive'));
+// end menu
+
+var rus=document.querySelector(".language-header__rus"),
+us=document.querySelector(".language-header__us"),
+kz=document.querySelector(".language-header__kz"),
+turkish=document.querySelector(".language-header__turkish"),
+tgk=document.querySelector(".language-header__tgk"),
+uzbek=document.querySelector(".language-header__uzbek"),
+strelka=document.querySelector(".language-header");
+strelka.addEventListener("click",(function(){us.classList.toggle("active"),kz.classList.toggle("active"),turkish.classList.toggle("active"),tgk.classList.toggle("active"),uzbek.classList.toggle("active"),strelka.classList.toggle("active"),rus.classList.toggle("active")}));
+</script>
 </body>
 </html>

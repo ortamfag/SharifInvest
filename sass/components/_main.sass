@@ -565,3 +565,20 @@
 
 .calculatorend
     margin: 3%
+
+
+
+.language-header.active::before
+    top: 10px
+    transform: rotate(-180deg)
+
+.language-header
+    cursor: pointer
+    margin: 0 auto
+
+.language-header__eng,.language-header__kz,.language-header__tgk,.language-header__turkish,.language-header__us,.language-header__uzbek
+    display: none
+
+.language-header__eng.active,.language-header__kz.active,.language-header__tgk.active,.language-header__turkish.active,.language-header__us.active,.language-header__uzbek.active
+    display: block
+    
