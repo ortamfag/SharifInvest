@@ -1,7 +1,18 @@
-.language-header__eng,.language-header__kz,.language-header__tgk,.language-header__us,.language-header__uzbek,.language-header__rus {
-    display: none
+
+.language-header__eng,
+.language-header__rus,
+.language-header__tgk,
+.language-header__us,
+.language-header__uzbek,
+.language-header__kz {
+    display: none;
 }
 
-.language-header__eng.active,.language-header__kz.active,.language-header__tgk.active,.language-header__us.active,.language-header__uzbek.active,.language-header__rus.active{
-    display: flex;
+.language-header__eng.active,
+.language-header__rus.active,
+.language-header__tgk.active,
+.language-header__us.active,
+.language-header__uzbek.active,
+.language-header__kz.active {
+    display: block;
 }
