@@ -227,7 +227,7 @@ $fontmain: 'Open Sans', sans-serif
         margin: 6% 1%
 
     .verify__profile
-        margin: 5% 2%
+        margin: 5% 2% 
 
 
     .burgers
@@ -301,11 +301,6 @@ $var2: #ffffff
             a 
                 color: #ffffff
             
-        
-        &__eng, &__kz, &__tgk, &__turkish, &__us, &__uzbek 
-            display: none
-            &.active 
-                display: block
             
 .header__login
     position: absolute
@@ -318,4 +313,21 @@ $var2: #ffffff
     
     .info
         &__goods-item
-                padding: 1% 
+                padding: 1%
+    .header__language
+        width: 43px
+
+
+@media  (max-width: 500px)
+    .header__login
+        left: 63%
+
+    .a
+        left: 54%
+
+    .b
+        width: 35px
+
+@media  (min-width: 500px)
+    .a
+        left: 50%

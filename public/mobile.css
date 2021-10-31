@@ -336,6 +336,28 @@
   .info__goods-item {
     padding: 1%;
   }
+
+  .header__language {
+    width: 43px;
+  }
+}
+@media (max-width: 500px) {
+  .header__login {
+    left: 63%;
+  }
+
+  .a {
+    left: 54%;
+  }
+
+  .b {
+    width: 35px;
+  }
+}
+@media (min-width: 500px) {
+  .a {
+    left: 50%;
+  }
 }
 
 /*# sourceMappingURL=mobile.css.map */
