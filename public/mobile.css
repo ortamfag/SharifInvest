@@ -14,14 +14,6 @@
     align-items: center;
     justify-content: space-between;
   }
-  .nav__mobile-switch {
-    border: 2px solid #ea7f1d;
-    border-radius: 15px;
-    width: 18%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
   .nav__mobile-burger {
     cursor: pointer;
     display: flex;
@@ -202,8 +194,13 @@
     margin-top: 5%;
   }
   .info__goods {
-    grid-template-columns: 50%;
+    grid-template-columns: 50% 50%;
     justify-content: center;
+  }
+  .info__goods-item {
+    padding: 5%;
+    border: 1px solid #ea7f1d;
+    margin: 5%;
   }
 
   .info__hr {
@@ -286,6 +283,82 @@
     visibility: visible;
     opacity: 1;
     transform: translate(0, 0);
+  }
+}
+.header__language {
+  width: 60px;
+  border: 2px solid #ef7f1a;
+  border-radius: 10px;
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  background-color: #111;
+}
+.header__language a {
+  color: #ffffff;
+}
+.header__language::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 18px;
+  height: 10px;
+  top: 10px;
+  left: 15%;
+}
+
+.language-header.active::before {
+  transform: rotate(-180deg);
+  top: 10px;
+}
+
+.language-header {
+  cursor: pointer;
+  top: -50%;
+  left: 100%;
+}
+.language-header li {
+  text-align: center;
+  padding: 8px 0px 6px 0;
+  font-size: 21px;
+}
+.language-header li a {
+  color: #ffffff;
+}
+.language-header__eng, .language-header__kz, .language-header__tgk, .language-header__turkish, .language-header__us, .language-header__uzbek {
+  display: none;
+}
+.language-header__eng.active, .language-header__kz.active, .language-header__tgk.active, .language-header__turkish.active, .language-header__us.active, .language-header__uzbek.active {
+  display: block;
+}
+
+.header__login {
+  position: absolute;
+  top: 1%;
+  left: 69%;
+}
+
+.language-header__eng,
+.language-header__kz,
+.language-header__tgk,
+.language-header__turkish,
+.language-header__us,
+.language-header__uzbek {
+  display: none;
+}
+
+.language-header__eng.active,
+.language-header__kz.active,
+.language-header__tgk.active,
+.language-header__turkish.active,
+.language-header__us.active,
+.language-header__uzbek.active {
+  display: block;
+}
+
+@media (width: 320px) {
+  .info__goods-item {
+    padding: 1%;
   }
 }
 
