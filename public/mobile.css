@@ -202,6 +202,18 @@
     border: 1px solid #ea7f1d;
     margin: 5%;
   }
+  .info__tours {
+    flex-direction: column;
+  }
+  .info__tours-img img {
+    width: 95%;
+  }
+  .info__tours-ul-item li {
+    margin: 1% 7%;
+  }
+  .info__tours h1 {
+    font-weight: 600;
+  }
 
   .info__hr {
     width: 100%;
